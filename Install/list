@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_lvk=$(wget --qO- http://SEU-IP-AKI/main/Sistema/versao)
+_lvk=$(wget -qO- https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Sistema/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
