@@ -2078,8 +2078,11 @@ exit 0' >$RCLOCAL
                 ;;              
 		    9 | 09)
 				slow_dns
+;;              
+		    10 | 10)
+	v2raymanager
 				;;
-			10 | 10)
+			11 | 11)
 				menu
 				;;
 			0 | 00)
