@@ -108,9 +108,6 @@ cd /bin/ && chmod +x v2raymanager
 cd /bin/ && rm -f v2ray*
 cd /bin/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/v2ray > /dev/null 2>&1
 cd /bin/ && chmod +x v2ray
-cd /bin/ && rm -f conexao*
-cd /bin/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/conexao > /dev/null 2>&1
-cd /bin/ && chmod +x conexao
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
 }
