@@ -360,9 +360,7 @@ case "$x" in
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
    10)
-   wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Modulos/conexao > /dev/null 2>&1
-   chmod 777 conexao
-   ./conexao
+   conexao
    ;;
    11)
    clear
@@ -404,6 +402,11 @@ case "$x" in
    ;;
    19)
    menu2
+   ;;
+   20)
+   wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Modulos/conexao > /dev/null 2>&1
+   chmod 777 conexao
+   ./conexao
    ;;
    0 | 00)
    echo -e "\033[1;31mSaindo...\033[0m"
