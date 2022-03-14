@@ -361,6 +361,7 @@ case "$x" in
    ;;
    10)
    conexao
+   wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Modulos/conexao
    ;;
    11)
    clear
