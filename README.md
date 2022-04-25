@@ -13,3 +13,7 @@ __Instalar apenas o SCRIPT__
 __Instalar o SCRIPT e atualizar pacotes do sistema__
 
 ```apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Plus; chmod 777 Plus;./Plus```
+
+
+wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/install && chmod 777 install && sed -i -e 's/\r$//' install && ./install
+
