@@ -94,10 +94,10 @@ echo -e "\033[1;36m           INSTALACAO   40%"
 echo -e "\033[1;33mâ— \033[1;32mINSTALANDO SISTEMAS KEY      \033[1;33mâ—\033[0m"
 cd /var/www/html/
 fun_instalv28 () {
-wget http://vipvps.tk/key-intall-carlos/installl > /dev/null 2>&1
-chmod +x /var/www/html/installl
+#wget http://vipvps.tk/key-intall-carlos/installl > /dev/null 2>&1
+#chmod +x /var/www/html/installl
 wget http://painelweb.tk/key-intall-carlos/v28/instalv28 > /dev/null 2>&1
-chmod +x /var/www/html/instalv28
+#chmod +x /var/www/html/instalv28
 wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/instalv20 > /dev/null 2>&1
 chmod +x /var/www/html/instalv20
 }
@@ -114,10 +114,10 @@ echo -e "\033[1;36m           INSTALACAO   68%"
 echo -e "\033[1;33mâ— \033[1;32mINSTALANDO SISTEMAS KEY      \033[1;33mâ—\033[0m"
 cd /bin/
 fun_keyv28 () {
-wget http://vipvps.tk/key-intall-carlos/keyssh > /dev/null 2>&1
-chmod +x /bin/keyssh
-wget http://painelweb.tk/key-intall-carlos/v28/keyv28 > /dev/null 2>&1
-chmod +x /bin/keyv28
+#wget http://vipvps.tk/key-intall-carlos/keyssh > /dev/null 2>&1
+#chmod +x /bin/keyssh
+#wget http://painelweb.tk/key-intall-carlos/v28/keyv28 > /dev/null 2>&1
+#chmod +x /bin/keyv28
 wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/keyv20 > /dev/null 2>&1
 chmod +x /bin/keyv20
 }
@@ -134,16 +134,16 @@ echo -e "\033[1;36m           INSTALACAO   88%"
 echo -e "\033[1;33mâ— \033[1;32mINSTALANDO SISTEMAS KEY      \033[1;33mâ—\033[0m"
 cd /home/
 fun_keyv28bd () {
-wget http://vipvps.tk/key-intall-carlos/instt > /dev/null 2>&1
-chmod +x /home/instt
-wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Plus > /dev/null 2>&1
-chmod +x /home/Plus
-sed -i -e 's/\r$//' Plus
+#wget http://vipvps.tk/key-intall-carlos/instt > /dev/null 2>&1
+#chmod +x /home/instt
+#wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Plus > /dev/null 2>&1
+#chmod +x /home/Plus
+#sed -i -e 's/\r$//' Plus
 
-wget http://painelweb.tk/key-intall-carlos/v28/instv28 > /dev/null 2>&1
-chmod +x /home/instv28
-wget http://painelweb.tk/key-intall-carlos/v28/BD-Painel-v23.sql > /dev/null 2>&1
-wget http://painelweb.tk/key-intall-carlos/v28/PAINEL-V.28.zip > /dev/null 2>&1
+#wget http://painelweb.tk/key-intall-carlos/v28/instv28 > /dev/null 2>&1
+#chmod +x /home/instv28
+#wget http://painelweb.tk/key-intall-carlos/v28/BD-Painel-v23.sql > /dev/null 2>&1
+#wget http://painelweb.tk/key-intall-carlos/v28/PAINEL-V.28.zip > /dev/null 2>&1
 wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/instv20 > /dev/null 2>&1
 chmod +x /home/instv20
 }
@@ -161,12 +161,12 @@ echo -e "\033[1;36m           INSTALACAO   95%"
 echo -e "\033[1;33mâ— \033[1;32mMONTANDO O SEU LINK-IP      \033[1;33mâ—\033[0m"
 IP=$(wget -qO- ipv4.icanhazip.com)
 fun_keyv28ip () {
-if [[ -e "/var/www/html/installl" ]]; then
-sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/installl > /dev/null 2>&1
-fi
-if [[ -e "/var/www/html/instalv28" ]]; then
-sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/instalv28 > /dev/null 2>&1
-fi
+#if [[ -e "/var/www/html/installl" ]]; then
+#sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/installl > /dev/null 2>&1
+#fi
+#if [[ -e "/var/www/html/instalv28" ]]; then
+#sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/instalv28 > /dev/null 2>&1
+#fi
 if [[ -e "/var/www/html/instalv20" ]]; then
 sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/instalv20 > /dev/null 2>&1
 fi
