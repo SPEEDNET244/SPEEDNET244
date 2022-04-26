@@ -169,6 +169,7 @@ sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/instalv28 > /dev/null 2>&1
 fi
 if [[ -e "/var/www/html/instalv20" ]]; then
 sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/instalv20 > /dev/null 2>&1
+fi
 }
 fun_bar 'fun_keyv28ip'
 echo -e "\033[1;34m ======================================"
