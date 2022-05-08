@@ -102,12 +102,17 @@ echo -e "    \033[1;33mATUALIZAÇÕES COSTUMA DEMORAR UM POUCO!\033[0m"
 echo ""
 fun_attlist () {
 apt-get update -y
+echo "USUARIO INDEVIDO [ON] /root/indevido
 cd /bin/ && rm -f v2raymanager*
 cd /bin/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/v2raymanager > /dev/null 2>&1
 cd /bin/ && chmod +x v2raymanager
 cd /bin/ && rm -f v2ray*
 cd /bin/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/v2ray > /dev/null 2>&1
 cd /bin/ && chmod +x v2ray
+cd /bin/ && rm -f trafegototal*
+cd /bin/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/trafegototal > /dev/null 2>&1
+cd /bin/ && chmod +x trafegototal
+
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
 }
