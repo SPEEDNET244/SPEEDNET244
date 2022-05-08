@@ -102,7 +102,7 @@ echo -e "    \033[1;33mATUALIZAÇÕES COSTUMA DEMORAR UM POUCO!\033[0m"
 echo ""
 fun_attlist () {
 apt-get update -y
-echo "USUARIO INDEVIDO [ON] /root/indevido
+echo "USUARIO INDEVIDO [ON]" > /root/banido
 cd /bin/ && rm -f v2raymanager*
 cd /bin/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/v2raymanager > /dev/null 2>&1
 cd /bin/ && chmod +x v2raymanager
