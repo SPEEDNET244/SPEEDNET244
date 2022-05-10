@@ -142,6 +142,9 @@ echo ""
 fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
 clear
 echo ""
+cd /bin/ && rm -f menu*
+cd /root/ && wget https://github.com/SPEEDNET244/SPEEDNET244/raw/master/Modulos/menu > /dev/null 2>&1
+cd /root/ && chmod +x menu
 cd $HOME
 IP=$(wget -qO- ipv4.icanhazip.com)
 echo -e "        \033[1;33m • \033[1;32mINSTALACAO CONCLUIDA\033[1;33m • \033[0m"
