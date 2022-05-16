@@ -12,11 +12,11 @@ dpkg-reconfigure --frontend noninteractive tzdata >/dev/null 2>&1
 [[ -z $lst1 ]] && {
 	rm -rf $_Ink/list >/dev/null 2>&1 && cat /dev/null >~/.bash_history && history -c && exit 0
 }
-[[ ! -d /etc/VPSManager ]] && mkdir /etc/VPSManager
-[[ ! -d /etc/VPSManager/senha ]] && mkdir /etc/VPSManager/senha
-[[ ! -e /etc/VPSManager/Exp ]] && touch /etc/VPSManager/Exp
-[[ ! -d /etc/VPSManager/userteste ]] && mkdir /etc/VPSManager/userteste
-[[ ! -d /etc/VPSManager/.tmp ]] && mkdir /etc/VPSManager/.tmp
+[[ ! -d /etc/SSHPlus ]] && mkdir /etc/VPSManager
+[[ ! -d /etc/SSHPlus/senha ]] && mkdir /etc/VPSManager/senha
+[[ ! -e /etc/SSHPlus/Exp ]] && touch /etc/VPSManager/Exp
+[[ ! -d /etc/SSHPlus/userteste ]] && mkdir /etc/VPSManager/userteste
+[[ ! -d /etc/SSHPlus/.tmp ]] && mkdir /etc/VPSManager/.tmp
 [[ ! -d /etc/bot ]] && mkdir /etc/bot
 [[ ! -d /etc/bot/info-users ]] && mkdir /etc/bot/info-users
 [[ ! -d /etc/bot/arquivos ]] && mkdir /etc/bot/arquivos
