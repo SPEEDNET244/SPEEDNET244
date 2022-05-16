@@ -12,11 +12,11 @@ dpkg-reconfigure --frontend noninteractive tzdata >/dev/null 2>&1
 [[ -z $lst1 ]] && {
 	rm -rf $_Ink/list >/dev/null 2>&1 && cat /dev/null >~/.bash_history && history -c && exit 0
 }
-[[ ! -d /etc/VPSManager ]] && mkdir /etc/VPSManager
-[[ ! -d /etc/VPSManager/senha ]] && mkdir /etc/VPSManager/senha
-[[ ! -e /etc/VPSManager/Exp ]] && touch /etc/VPSManager/Exp
-[[ ! -d /etc/VPSManager/userteste ]] && mkdir /etc/VPSManager/userteste
-[[ ! -d /etc/VPSManager/.tmp ]] && mkdir /etc/VPSManager/.tmp
+[[ ! -d /etc/VSSHPlus ]] && mkdir /etc/VPSManager
+[[ ! -d /etc/SSHPlus/senha ]] && mkdir /etc/VPSManager/senha
+[[ ! -e /etc/SSHPlus/Exp ]] && touch /etc/VPSManager/Exp
+[[ ! -d /etc/SSHPlus/userteste ]] && mkdir /etc/VPSManager/userteste
+[[ ! -d /etc/SSHPlus.tmp ]] && mkdir /etc/VPSManager/.tmp
 [[ ! -d /etc/bot ]] && mkdir /etc/bot
 [[ ! -d /etc/bot/info-users ]] && mkdir /etc/bot/info-users
 [[ ! -d /etc/bot/arquivos ]] && mkdir /etc/bot/arquivos
@@ -24,7 +24,7 @@ dpkg-reconfigure --frontend noninteractive tzdata >/dev/null 2>&1
 [[ ! -d /etc/bot/suspensos ]] && mkdir /etc/bot/suspensos
 [[ ! -e /etc/bot/lista_ativos ]] && touch /etc/bot/lista_ativos
 [[ ! -e /etc/bot/lista_suspensos ]] && touch /etc/bot/lista_suspensos
-echo -e 'by: @KIRITO_SSH' >/usr/lib/vpsmanager && cat /usr/lib/vpsmanager >$lst2/licence && cat /usr/lib/vpsmanager > /etc/VPSManager/.tmp/vps
+echo -e 'by: @EDUARDO' >/usr/lib/SSHPlus && cat /usr/lib/SSHPlus >$lst2/licence && cat /usr/lib/vpsmanager > /etc/VPSManager/.tmp/vps
 netstat -nplt | grep -w 'apache2' | grep -w '80' && sed -i "s/Listen 80/Listen 8888/g" /etc/apache2/ports.conf && service apache2 restart
 [[ "$(grep -o '#Port 22' /etc/ssh/sshd_config)" == "#Port 22" ]] && sed -i "s;#Port 22;Port 22;" /etc/ssh/sshd_config && service ssh restart
 grep -v "^PasswordAuthentication" /etc/ssh/sshd_config >/tmp/passlogin && mv /tmp/passlogin /etc/ssh/sshd_config
