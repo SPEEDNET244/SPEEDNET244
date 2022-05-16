@@ -151,7 +151,7 @@ cd $HOME
 IP=$(wget -qO- ipv4.icanhazip.com)
 echo -e "        \033[1;33m • \033[1;32mINSTALACAO CONCLUIDA\033[1;33m • \033[0m"
 echo ""
-echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32m./menu\033[0m"
+echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32m menu\033[0m"
 echo -e "\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@SPEEDNET\033[0m"
 echo -e ""
 echo -e "\033[1;31m \033[1;33mURL de Usuários Online para usar no App \033[1;36mNT Injector\033[0m"
