@@ -180,7 +180,7 @@ function autoexec () {
       echo -e "\033[1;32mATIVANDO AUTO EXECUÇÃO\033[0m"
       autmenu () {
          grep -v "^menu;" /etc/profile > /tmp/tmpass && mv /tmp/tmpass /etc/profile
-         echo "./menu;" >> /etc/profile
+         echo "menu;" >> /etc/profile
       }
       echo ""
       fun_bar 'autmenu'
