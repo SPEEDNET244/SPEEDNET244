@@ -1,5 +1,7 @@
 #! /bin/sh
-
+#-----------------------------
+# squid	open source by SUKUNA.
+#-----------------------------
 
 NAME=squid3
 DESC="Squid HTTP Proxy"
