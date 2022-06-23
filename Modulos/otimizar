@@ -1,5 +1,10 @@
 #!/bin/bash
-
+#===================================================
+#	SCRIPT: OTIMIZAR	SSHPLUS MANAGER
+#	DESENVOLVIDO POR:	SPEEDNET
+#	CONTATO TELEGRAM: SPEEDNET
+#	CANAL TELEGRAM:	  SPEEDNET
+#===================================================
 fun_bar() {
 	comando[0]="$1"
 	comando[1]="$2"
@@ -32,7 +37,7 @@ echo -e "\E[44;1;37m                Otimizar Servidor                \E[0m"
 echo ""
 echo -e "\033[1;32m               Atualizando pacotes\033[0m"
 echo ""
-fun_bar 'apt-get update -y' 'apt-get upgrade -y'
+fun_bar 'apt update -y && apt upgrade -y'
 echo ""
 echo -e "\033[1;32m      Corrigindo problemas de dependências"
 echo""
@@ -40,11 +45,11 @@ fun_bar 'apt-get -f install'
 echo""
 echo -e "\033[1;32m            Removendo pacotes inúteis"
 echo ""
-fun_bar 'apt-get autoremove -y' 'apt-get autoclean -y'
+fun_bar 'apt-get autoremove -y && apt-get autoclean -y'
 echo ""
 echo -e "\033[1;32m        Removendo pacotes com problemas"
 echo ""
-fun_bar 'apt-get -f remove -y' 'apt-get clean -y'
+fun_bar 'apt-get -f remove -y && apt-get clean -y'
 #Limpar o cache memoria RAM
 clear
 echo -e "\033[1;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
