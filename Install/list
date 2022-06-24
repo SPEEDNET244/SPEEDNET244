@@ -1,8 +1,8 @@
 #!/bin/bash
 #====================================================
-#	@SUKUNA
+#	@Speednet
 #====================================================
-_lvk=$(wget -qO- https://raw.githubusercontent.com/F4K3R171337/SSHPLUS/main/Sistema/versao)
+_lvk=$(wget -qO- https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Sistema/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- ipv4.icanhazip.com)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
@@ -28,7 +28,7 @@ dpkg-reconfigure --frontend noninteractive tzdata >/dev/null 2>&1
 [[ ! -d /etc/rec ]] && mkdir /etc/rec
 [[ ! -e /etc/bot/lista_ativos ]] && touch /etc/bot/lista_ativos
 [[ ! -e /etc/bot/lista_suspensos ]] && touch /etc/bot/lista_suspensos
-echo -e 'by: @SUKUNA' >/usr/lib/sshplus && cat /usr/lib/sshplus >$lst2/licence && cat /usr/lib/sshplus > /etc/SSHPlus/.tmp/crazy
+echo -e 'by: @SPEEDNET' >/usr/lib/sshplus && cat /usr/lib/sshplus >$lst2/licence && cat /usr/lib/sshplus > /etc/SSHPlus/.tmp/crazy
 netstat -nplt | grep -w 'apache2' | grep -w '80' && sed -i "s/Listen 80/Listen 81/g" /etc/apache2/ports.conf && service apache2 restart
 [[ "$(grep -o '#Port 22' /etc/ssh/sshd_config)" == "#Port 22" ]] && sed -i "s;#Port 22;Port 22;" /etc/ssh/sshd_config && service ssh restart
 grep -v "^PasswordAuthentication" /etc/ssh/sshd_config >/tmp/passlogin && mv /tmp/passlogin /etc/ssh/sshd_config
@@ -62,7 +62,7 @@ clear
 #INICIO AUTOMATICO' >/etc/autostart
 	chmod +x /etc/autostart
 } || {
-	[[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && wget -qO- https://raw.githubusercontent.com/F4K3R171337/SSHPLUS/main/Install/ShellBot.sh
+	[[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && wget -qO- https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Install/ShellBot.sh
 	for proc in $(ps x | grep 'dmS' | grep -v 'grep' | awk {'print $1'}); do
 		screen -r -S "$proc" -X quit	
 done
@@ -81,7 +81,7 @@ crontab -r >/dev/null 2>&1
 	echo "0 */6 * * * /bin/uexpired"
 ) | crontab -
 echo "$_lvk" | sed -n '1 p' | cut -d' ' -f2 >/bin/versao && cat /bin/versao >/home/sshplus
-wget https://raw.githubusercontent.com/F4K3R171337/SSHPLUS/main/Install/jq-linux64 >/dev/null 2>&1
+wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Install/jq-linux64 >/dev/null 2>&1
 chmod +x jq-linux64 && mv jq-linux64 $(which jq)
 service cron restart >/dev/null 2>&1
 service ssh restart >/dev/null 2>&1
