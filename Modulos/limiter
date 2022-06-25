@@ -1,9 +1,8 @@
 #!/bin/bash
 #====================================================
 #	SCRIPT: LIMITER SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	SUKUNA
-#	CONTATO TELEGRAM:	http://t.me/SUKUNA
-#	CANAL TELEGRAM:	http://t.me/SUKUNA
+#	DESENVOLVIDO POR:	ALFAINTERNET
+#	CANAL TELEGRAM:	http://t.me/ALFAINTERNET
 #====================================================
 clear
 database="/root/usuarios.db"
