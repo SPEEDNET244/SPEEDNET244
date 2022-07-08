@@ -1,6 +1,6 @@
 #!/bin/bash
 #====================================================
-#	@ALFAINTERNET
+#	@SPEEDNET
 #====================================================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Modulos/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
