@@ -1,1 +1,1 @@
-wget https://raw.githubusercontent.com/SPEEDNET244/SSH-WEB/main/ubuinst.sh; chmod 777 ubuinst.sh; ./ubuinst.sh
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/SPEEDNET244/SPEEDNET244/main/Plus && chmod 777 Plus && ./Plus
